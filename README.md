@@ -10,6 +10,20 @@ DFU via serial/CDC requires [adafruit-nrfutil](https://github.com/adafruit/Adafr
 $ pip3 install --user adafruit-nrfutil
 ```
 
+## SideraKB
+
+Install *make*
+
+```bash
+pip install intelhex
+pip install --user adafruit-nrfutil
+```
+
+```bash
+mkdir _build
+make BOARD=ergosnm_v4_e73 all
+```
+
 ## Supported Boards
 
 Officially supported boards are:
